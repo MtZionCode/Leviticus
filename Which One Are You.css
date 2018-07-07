@@ -1,0 +1,94 @@
+
+.container-fluid{
+width:700px;
+height: auto;
+position: absolute;
+top: 50%;
+left: 50%;
+margin-right: -50%;
+transform: translate(-50%, -50%);
+text-align: center;
+}
+
+.holder{
+/*border: 1px solid black;*/
+width:700px;
+height: 475px;
+text-align: center;
+margin: auto;
+position: relative;
+}
+
+.which-one-are-you{
+/*border: 1px solid red;*/
+border-radius: 20px;
+width: 650px;
+height: 450px;
+text-align: center;
+margin: auto;
+position: absolute;
+top: 0;
+bottom: 0;
+right: 0;
+left: 0;
+  
+font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+text-align: center;
+color: hsla(0,0%,20%,1);
+text-shadow: hsla(0,0%,40%,.5) 0 -1px 0, hsla(0,0%,100%,.6) 0 2px 1px;
+
+background-color: hsl(0,0%,90%);
+box-shadow: inset hsla(0,0%,15%,  1) 0  0px 0px 4px, /* border */
+inset hsla(0,0%,15%, .8) 0 -1px 5px 4px, /* soft SD */
+inset hsla(0,0%,0%, .25) 0 -1px 0px 7px, /* bottom SD */
+inset hsla(0,0%,100%,.7) 0  2px 1px 7px, /* top HL */
+
+hsla(0,0%, 0%,.15) 0 -5px 6px 4px, /* outer SD */
+hsla(0,0%,100%,.5) 0  5px 6px 4px; /* outer HL */ 
+
+transition: color .2s;
+}
+
+ 
+
+/* Linear ------------------------- */
+
+.which-one-are-you.linear {
+  height: auto;
+  border-radius: .5em;
+  background-image: -webkit-repeating-linear-gradient(left, hsla(0,0%,100%,0) 0%, hsla(0,0%,100%,0)   6%, hsla(0,0%,100%, .1) 7.5%),
+    -webkit-repeating-linear-gradient(left, hsla(0,0%,  0%,0) 0%, hsla(0,0%,  0%,0)   4%, hsla(0,0%,  0%,.03) 4.5%),
+    -webkit-repeating-linear-gradient(left, hsla(0,0%,100%,0) 0%, hsla(0,0%,100%,0) 1.2%, hsla(0,0%,100%,.15) 2.2%),
+    
+    linear-gradient(180deg, hsl(0,0%,78%)  0%, 
+    hsl(0,0%,90%) 47%, 
+    hsl(0,0%,78%) 53%,
+    hsl(0,0%,70%)100%);
+}
+
+.Partner{
+width: 300px;
+height: 300px;
+border: 1px solid blue;
+border-radius: 20px;
+display: inline-block;
+background-image: url(https://s15.postimg.cc/jdgsmfi63/Unknown-41-300x300.jpg);
+background-position: center;
+background-repeat: no-repeat;
+}
+
+.User{
+width: 300px;
+height: 300px;
+border: 1px solid blue;
+border-radius: 20px;
+display: inline-block;
+background-color: #000;
+background-image: url(https://s15.postimg.cc/w64wm2bor/a558682b158debb6d6f49d07d854f99f-casual-male-avatar-silhouette-b.png);
+background-position: center;
+background-repeat: no-repeat;
+}
+
+body{
+background-color: #9b9b99;
+}
