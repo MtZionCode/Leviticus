@@ -1,0 +1,144 @@
+.top-box{
+/*border: 1px solid red;*/
+width:400px;
+height: 100px;  
+text-align: center; 
+position: absolute;
+top: 10%;
+left: 50%;
+margin-right: -50%;
+transform: translate(-50%, -50%);
+text-align: center;
+}
+
+.logo{
+width: 100px;
+height: 68px;
+ background-image: url("https://s15.postimg.cc/ggl1du463/EQ_Logo2.jpg");
+background-repeat: no-repeat;
+background-size: 100px 68px;
+border-radius: 5px;
+margin: auto;
+display: inline-block;
+}
+
+h3{
+text-align: center;
+color: white;
+font-family: "Droid Sans", "Lucida Sans Unicode", "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+text-transform: uppercase;
+margin: auto;
+display: inline-block;
+}
+
+.ThreeD-CAD-MODEL{
+background-image: url("https://s15.postimg.cc/ssa5m1azv/EQit_Network_Button_2.png");
+width:400px;
+height: 405px;
+position: absolute;
+top: 55%;
+left: 50%;
+margin-right: -50%;
+transform: translate(-50%, -50%);
+text-align: center;
+}
+
+.container-fluid{
+/*border: 1px solid green;*/
+width:320px;
+height: 320px;
+position: absolute;
+top: 50%;
+left: 50%;
+margin-right: -50%;
+transform: translate(-50%, -50%);
+text-align: center;
+background-color: #000;
+box-shadow: 1px 3px 2px #444, inset 0px 0px 12px 0px #fff;
+cursor: pointer;
+border-radius: 20px;
+}
+
+.container-fluid:active {
+   box-shadow:inset 0 1px 3px rgba(0,0,0,1);
+  color: #000;
+}
+
+.holder{
+/*border: 1px solid green;*/
+width:310px;
+height: 310px;
+text-align: center;
+margin: auto;
+position: absolute;
+top: 50%;
+left: 50%;
+margin-right: -50%;
+transform: translate(-50%, -50%);
+}
+
+.circle{
+width:220px;
+height: 220px;
+border: 30px solid #0cff00; /*might make a change to this with power-off green: #008000*/
+box-shadow: -1px 0px 25px 7px #0cff00;
+border-radius: 100%;
+text-align: center;
+margin: auto;
+position: absolute;
+top: 50%;
+left: 50%;
+margin-right: -50%;
+transform: translate(-50%, -50%);
+text-align: center;
+}
+
+.glow-off{
+	box-shadow: none;
+    border: 30px solid #0cff00;
+}
+
+.vertical-rectangle{
+width:30px;
+height:150px;
+background-color: #0cff00;
+box-shadow: -1px 0px 15px 7px #0cff00;
+position: absolute;
+border-radius: 5px;
+top: -25px;
+left:95px;
+}
+
+.glow-off2{
+	box-shadow: none;
+}
+
+.make-it{ /*enables shape-form for power button*/
+    height: 0;
+    width: 80px;
+    background-color: transparent;
+    border-top: 80px solid #000000;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+position: absolute;
+left: 40px; 
+top: -45px;
+}
+
+/*
+.make-it{
+height: 0;
+width: 120px;
+background-color: red;
+border-top: 120px solid #ec3504;
+border-left: 60px solid transparent;
+border-right: 60px solid transparent;
+}
+
+*/
+
+
+
+body{
+background-color: #000;
+}
